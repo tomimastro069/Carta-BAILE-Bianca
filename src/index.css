@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Raleway:wght@300;400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-navy: #1B3A6B;
+  --color-navy-light: #5B8FC5;
+  --color-gold: #c9a84c;
+  --color-gold-light: #e8c96a;
+  --color-cream: #f7f2e6;
+  --color-blue-accent: #5b8fd9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f9f7f2;
+  color: #1B3A6B;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c9a84c transparent;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c9a84c;
+  border-radius: 2px;
+}
+
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-body {
+  font-family: 'Raleway', sans-serif;
+}
