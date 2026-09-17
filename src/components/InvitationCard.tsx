@@ -21,25 +21,10 @@ export default function InvitationCard() {
     >
       <div className="relative w-full">
         <img
-          src="/Invitation.png"
-          alt="Invitación XV Bianca"
+          src="/Invitation.jpg"
+          alt="Invitación XV Bianca - Gran Baile"
           className="w-full shadow-lg rounded-sm"
         />
-        <div
-          className="absolute left-1/2 -translate-x-1/2 flex items-center justify-center bg-white"
-          style={{
-            top: '58%',
-            width: '25%',
-            height: '3.5%',
-            color: '#1b3a6b',
-            fontFamily: "serif",
-            fontSize: '1rem',
-            fontWeight: 500,
-            letterSpacing: '0.05em',
-          }}
-        >
-          00:00
-        </div>
       </div>
 
       <button
