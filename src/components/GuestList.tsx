@@ -48,7 +48,14 @@ export default function GuestList() {
 
   return (
     <section className="py-12 px-4" style={{ background: 'transparent' }}>
-      <div className="max-w-2xl mx-auto">
+      <div
+        className="max-w-2xl mx-auto p-6 sm:p-8 rounded-lg shadow-md"
+        style={{
+          backgroundColor: 'rgba(249, 247, 242, 0.95)',
+          border: '1px solid rgba(201, 168, 76, 0.3)',
+          backdropFilter: 'blur(8px)',
+        }}
+      >
         <div className="text-center mb-8">
           <p
             className="text-xs uppercase tracking-[0.3em] mb-2"
@@ -80,7 +87,7 @@ export default function GuestList() {
         </div>
 
         <div className="flex items-center justify-between mb-6">
-          <p className="text-sm" style={{ color: '#1B3A6B', fontFamily: "'Raleway', sans-serif" }}>
+          <p className="text-sm" style={{ color: '#01040aff', fontFamily: "'Raleway', sans-serif" }}>
             {lista.length} confirmaciones · {totalPersonas} personas en total
           </p>
           <button
