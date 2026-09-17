@@ -1,5 +1,6 @@
 import PageEdges from './components/PageEdges'
 import InvitationCard from './components/InvitationCard'
+import LocationSection from './components/LocationSection'
 import GuestList from './components/GuestList'
 
 export default function App() {
@@ -14,11 +15,13 @@ export default function App() {
       {/* Fondo floral identico al sitio original */}
       <PageEdges />
 
-      {/* Contenido simplificado: Tarjeta + Confirmacion + Lista de invitados */}
+      {/* Contenido: Tarjeta + Ubicacion + Lista de invitados */}
       <div className="relative py-12 px-4 flex flex-col gap-12" style={{ zIndex: 1 }}>
         <section className="flex items-center justify-center">
           <InvitationCard />
         </section>
+
+        <LocationSection />
 
         <GuestList />
       </div>
